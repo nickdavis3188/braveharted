@@ -36,7 +36,7 @@ class Posts  extends Component {
             <div className="container">
                 <div style={{width:"100%",height:"40px"}} className=" z-depth-4">
                    
-                    <div style={{height:"38px",width:"100px",display:"flex",alignItems:"center",justifyContent:"center"}} className="left light-text z-depth-1"><a href="https://braveharted.netlify.app/post">All post</a></div>
+                    <div style={{height:"38px",width:"100px",display:"flex",alignItems:"center",justifyContent:"center"}} className="left light-text z-depth-1"><a href="/post">All post</a></div>
                     <div style={{height:"38px",width:"100px",display:"flex",alignItems:"center",justifyContent:"center"}} className="z-depth-3 white black-text waves-effect waves-light darken-3 right">Current post</div>
                     <div className="clearfix"></div>
                 </div>
@@ -51,7 +51,7 @@ class Posts  extends Component {
 
 function SubPost(props){
     return( props.post.map(item =>(
-                <a key={item._id} href={`https://braveharted.netlify.app/realpost#${item._id}`}>
+                <a key={item._id} href={`/${item._id}`}>
                     <div className="row z-depth-1" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                     <div className="col s6" style={{flex:"25px",width:"30%",height:"340px"}}>
                         <div style={{width:"100%",height:"100%"}}>

@@ -22,7 +22,7 @@ class Mainpost extends Component {
         this.getAllPostt();
     }
     getMainPost(){
-            let pathN = window.location.hash.slice(1)
+            let pathN = window.location.pathname.slice(1)
             console.log(pathN)
         axios({
             method:"get",
@@ -155,7 +155,7 @@ function Carosel(props){
             <div className="card22" id="fold55">
                 <img src={post.file} alt="post" style={{width:"100%"}} id="myim"></img>
                 <div className="container22">
-                    <a href={`https://braveharted.netlify.app/realpost#${post._id}`}><h4><b>{post.title}</b></h4></a>
+                    <a href={`/${post._id}`}><h4><b>{post.title}</b></h4></a>
                 </div>
             </div> 
          

@@ -41,7 +41,7 @@ class Eachpost extends Component {
 function LoopedPost(props){
     return(
         props.post.map(item =>(
-            <a key={item._id} href={`https://braveharted.netlify.app/realpost#${item._id}`}>
+            <a key={item._id} href={`/realpost#${item._id}`}>
                 <div className="row z-depth-1" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                     <div className="col s6" style={{flex:"25px",width:"30%",height:"340px"}}>
                         <div style={{width:"100%",height:"100%"}}>

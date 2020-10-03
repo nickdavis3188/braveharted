@@ -48,11 +48,11 @@ class NavL extends Component {
             return(
                 <React.Fragment>
                     <ul className=" black-text">
-                        <li className="black-text"><a href="https://braveharted.netlify.app/" className="black-text"><i className="material-icons large">home</i>HOME</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/post" className="black-text"><i className="material-icons large">chrome_reader_mode</i>POST</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/contact" className="black-text"><i className="material-icons large">contacts</i>CONTACT</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/admin" className="black-text"><i className="material-icons large">airline_seat_recline_normal</i>ADMIN</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/about" className="black-text"><i className="material-icons large" >dashboard</i>ABOUT</a></li>
+                        <li className="black-text"><a href="/" className="black-text"><i className="material-icons large">home</i>HOME</a></li>
+                        <li className="black-text"><a href="/post" className="black-text"><i className="material-icons large">chrome_reader_mode</i>POST</a></li>
+                        <li className="black-text"><a href="/contact" className="black-text"><i className="material-icons large">contacts</i>CONTACT</a></li>
+                        <li className="black-text"><a href="/admin" className="black-text"><i className="material-icons large">airline_seat_recline_normal</i>ADMIN</a></li>
+                        <li className="black-text"><a href="/about" className="black-text"><i className="material-icons large" >dashboard</i>ABOUT</a></li>
                     </ul>
                     
                     <a className=" btn white black-text waves-effect waves-light darken-3 right  indigo accent-4 white-text" onClick={
@@ -74,10 +74,10 @@ class NavL extends Component {
                    
                 <React.Fragment>
                     <ul className=" black-text">
-                        <li className="black-text"><a href="https://braveharted.netlify.app/" className="black-text"><i className="material-icons large">home</i>HOME</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/post" className="black-text"><i className="material-icons large">chrome_reader_mode</i>POST</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/contact" className="black-text"><i className="material-icons large">contacts</i>CONTACT</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/about" className="black-text"><i className="material-icons large" >dashboard</i>ABOUT</a></li>
+                        <li className="black-text"><a href="/" className="black-text"><i className="material-icons large">home</i>HOME</a></li>
+                        <li className="black-text"><a href="/post" className="black-text"><i className="material-icons large">chrome_reader_mode</i>POST</a></li>
+                        <li className="black-text"><a href="/contact" className="black-text"><i className="material-icons large">contacts</i>CONTACT</a></li>
+                        <li className="black-text"><a href="/about" className="black-text"><i className="material-icons large" >dashboard</i>ABOUT</a></li>
             
                     </ul>
                     <a className=" btn white black-text waves-effect waves-light darken-3 right  indigo accent-4 white-text" onClick={
@@ -100,10 +100,10 @@ class NavL extends Component {
                    
                 <React.Fragment>
                     <ul className=" black-text">
-                        <li className="black-text"><a href="https://braveharted.netlify.app/" className="black-text"><i className="material-icons large">home</i>HOME</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/post" className="black-text"><i className="material-icons large">chrome_reader_mode</i>POST</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/contact" className="black-text"><i className="material-icons large">contacts</i>CONTACT</a></li>
-                        <li className="black-text"><a href="https://braveharted.netlify.app/about" className="black-text"><i className="material-icons large" >dashboard</i>ABOUT</a></li>
+                        <li className="black-text"><a href="/" className="black-text"><i className="material-icons large">home</i>HOME</a></li>
+                        <li className="black-text"><a href="/post" className="black-text"><i className="material-icons large">chrome_reader_mode</i>POST</a></li>
+                        <li className="black-text"><a href="/contact" className="black-text"><i className="material-icons large">contacts</i>CONTACT</a></li>
+                        <li className="black-text"><a href="/about" className="black-text"><i className="material-icons large" >dashboard</i>ABOUT</a></li>
             
                     </ul>
                     <a href="#modal1" className=" pulse btn white black-text waves-effect waves-light darken-3 right modal-trigger indigo accent-4 white-text">Sign-In/Sign-Up</a>

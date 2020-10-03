@@ -15,14 +15,14 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="https://braveharted.netlify.app/" component={Home}></Route>
-        <Route exact path="https://braveharted.netlify.app/post" component={Allpost}></Route>
-        <Route exact path="https://braveharted.netlify.app/contact" component={Contact}></Route>
-        <Route exact path="https://braveharted.netlify.app/about" component={About}></Route>
-        <Route exact path="https://braveharted.netlify.app/admin" component={Admin}></Route>
-        <Route exact path="https://braveharted.netlify.app/forgotPwd" component={Forgot}></Route>
-        <Route exact path="https://braveharted.netlify.app/resetPWD" component={ResetPassword}></Route>
-        <Route exact path="https://braveharted.netlify.app/realpost" component={Mainpost}></Route>
+        <Route exact path="/" component={Home}></Route>
+        <Route exact path="/post" component={Allpost}></Route>
+        <Route exact path="/contact" component={Contact}></Route>
+        <Route exact path="/about" component={About}></Route>
+        <Route exact path="/admin" component={Admin}></Route>
+        <Route exact path="/forgotPwd" component={Forgot}></Route>
+        <Route exact path="/resetPWD" component={ResetPassword}></Route>
+        <Route exact path="/:id" component={Mainpost}></Route>
       </Switch>
     </BrowserRouter>
     
