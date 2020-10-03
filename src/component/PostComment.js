@@ -25,7 +25,7 @@ class PostComment extends Component{
                             <i class="material-icons prefix">mode_edit</i>
                             <textarea id="icon_prefix2" class="materialize-textarea" onChange={this.takeComment}></textarea>
                             <label for="icon_prefix2">Comment</label>
-                                <ConfirmBtn confirmU={this.props.confirm} text={this.state.inputedComment} postId={window.location.pathname.slice(1)}/>
+                                <ConfirmBtn confirmU={this.props.confirm} text={this.state.inputedComment} postId={window.location.hash.slice(1)}/>
                             </div>
                         </div>
                     </form>

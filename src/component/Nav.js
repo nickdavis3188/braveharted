@@ -169,7 +169,7 @@ class Nav extends Component{
                                         <button className="btn waves-effect waves-light indigo darken-4" type="submit" name="action" onClick={this.login}>login
                                             <i className="material-icons right">send</i>
                                         </button>
-                                        <a href="/forgotPwd"><p>forgot password</p></a>
+                                        <a href="https://braveharted.netlify.app/forgotPwd"><p>forgot password</p></a>
                                         <h6 id="loginResMsg" className="center-align" style={{fontFamily:"monospace",fontStyle:"italic"}}></h6>
                                         
                                        
