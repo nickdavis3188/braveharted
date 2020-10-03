@@ -26,7 +26,7 @@ class Mainpost extends Component {
             console.log(pathN)
         axios({
             method:"get",
-            url:`/post/${pathN}`
+            url:` https://braveharted.herokuapp.com/post/${pathN}`
         })
         .then(ress =>{
             if(ress.data.status === "success"){
@@ -54,7 +54,7 @@ class Mainpost extends Component {
         axios({
             method:"post",
             headers,
-            url:"/verifyLog",
+            url:"https://braveharted.herokuapp.com/verifyLog",
             data:data33
         })
         .then(res =>{
@@ -75,7 +75,7 @@ class Mainpost extends Component {
     getAllPostt(){
             axios({
             method:"get",
-            url:"/mysinglepost"
+            url:"https://braveharted.herokuapp.com/mysinglepost"
         })
         .then(res =>{
             if(res.data.status === "success"){

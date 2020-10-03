@@ -22,7 +22,7 @@ class AdminBody extends Component {
         formData.append("myFiles",files)
         axios({
             method:"post",
-            url:"/admini",
+            url:" https://braveharted.herokuapp.com/admini",
             data:formData
         })
         .then(res =>{

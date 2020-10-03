@@ -10,7 +10,7 @@ class Eachpost extends Component {
     componentDidMount(){
         axios({
             method:"get",
-            url:"/allPost"
+            url:"https://braveharted.herokuapp.com/allPost"
         })
         .then(res =>{
             if(res.data.status === "success"){

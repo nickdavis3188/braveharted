@@ -20,7 +20,7 @@ class FIxbtn extends Component{
         axios({
             method:"post",
             headers,
-            url:"/verify",
+            url:"https://braveharted.herokuapp.com/verify",
             data:data33
         })
         .then(res =>{

@@ -13,7 +13,7 @@ class Posts  extends Component {
    getAllPost(){
          axios({
                 method:"get",
-                url:"/all"
+                url:"https://braveharted.herokuapp.com/all"
             })
             .then(res =>{
                 if(res.data.status === "success"){
