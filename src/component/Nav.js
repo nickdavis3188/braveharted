@@ -130,7 +130,7 @@ class Nav extends Component{
                 <div style={{width:"100%",height:"auto",backgroundColor:"whitesmoke",position:"fixed",top:0, zIndex:3}}>
                     <nav className="hide-on-med-and-down white">
                         <div className="nav-wrapper white darken-3" >
-                            <h3 className=" center-align " style={{color:"black",fontFamily:"monospace"}}>BRAVEHARTED</h3>
+                            <h3 className=" center-align " style={{color:"black",fontFamily:"monospace"}}>BRAVEHEARTED</h3>
                             <div id="navItem" style={{width:"100%",height:"auto",margin:"auto"}}>
                                 <NavL/>
                             </div>
