@@ -59,7 +59,7 @@ function Surecomment(props){
         return(
             props.main.map(comm =>(
                 <li key={comm._id} className="z-depth-1 white" style={{borderRadius:"0 5px 5px 0"}}>
-                    <img className=" left circle" width="70" src={comm.img} alt="users"></img>
+                    <img className=" left circle" width="30" src={comm.img} alt="users"></img>
                     <span >{comm.name}</span>
                     <div className="clearFix"></div>
                     <hr style={{fontWeight:"lighter"}}></hr>
