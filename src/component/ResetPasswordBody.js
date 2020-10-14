@@ -70,7 +70,7 @@ function PasswordButtonChaeck(props){
                 }
                 axios({
                     method:"post",
-                    url:`https://braveharted.herokuapp.com/resetPWD/${props.token}`,
+                    url:`https://braveblog2.herokuapp.com/resetPWD/${props.token}`,
                     headers,
                     data:data99
                 })
