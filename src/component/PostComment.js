@@ -96,7 +96,7 @@ function ConfirmBtn(props){
                     axios({
                         method:"post",
                         headers,
-                        url:"https://braveharted.herokuapp.com/insertComment",
+                        url:"https://braveblog2.herokuapp.com/insertComment",
                         data:data44
                     })
                     .then(res=>{
