@@ -38,7 +38,7 @@ class Nav extends Component{
        console.log(formData)
         axios({
             method:"post",
-            url:"https://braveharted.herokuapp.com/register",
+            url:"https://braveblog2.herokuapp.com/register",
             data:formData
         })
         .then(res =>{
@@ -98,7 +98,7 @@ class Nav extends Component{
         }
         axios({
             method:"post",
-            url:"https://braveharted.herokuapp.com/login",
+            url:"https://braveblog2.herokuapp.com/login",
             headers,
             data
         })
