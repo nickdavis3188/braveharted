@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import Postfooter from './Postfooter';
 import FIxbtn from './Fixbtn';
-import img from "../img/slide3.webp"
 import axios from "axios"
 import PostComment from './PostComment';
-import "../App.css"
+import Ad from './Ad';
 // mongodb+srv://NickDavis:davis3188@cluster0.f90pa.mongodb.net/NickDavis?retryWrites=true&w=majority
 class Mainpost extends Component {
     constructor(props){
@@ -100,6 +99,7 @@ class Mainpost extends Component {
         return (
             <React.Fragment>
                 <Nav/>
+                <Ad/>
                 <div className="hide-on-med-and-down" style={{width:"100%",height:"240px"}}></div>
                 <div className="hide-on-large-only" style={{width:"100%",height:"70px"}}></div>
                 <div className="container">
@@ -115,9 +115,11 @@ class Mainpost extends Component {
                     justifyContent:"center",
                     flexWrap:"wrap"
                     }}>
+                        <Ad/>
                         <Carosel all={this.state.subPost}/>
                     </div>
                     <div style={{width:"100%",height:"140px"}}></div>
+                    <Ad/>
                     <PostComment confirm={this.state.confirmLog} comment={this.state.forComment}/>
                 </div>
                 <FIxbtn/>
