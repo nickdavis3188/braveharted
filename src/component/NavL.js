@@ -23,7 +23,7 @@ class NavL extends Component {
         axios({
             method:"post",
             headers,
-            url:"https://braveharted.herokuapp.com/verifyToken",
+            url:"https://braveblog2.herokuapp.com/verifyToken",
             data:data33
         })
         .then(res =>{
