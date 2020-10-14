@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Ad from './component/Ad';
 import Eachpost from './component/Eachpost';
 import FIxbtn from './component/Fixbtn';
 import Nav from './component/Nav';
@@ -9,7 +10,9 @@ class Allpost extends Component {
         return(
             <React.Fragment>
                 <Nav/>
+                <Ad/>
                 <Eachpost/>
+                <Ad/>
                 <FIxbtn/>
                 <Postfooter/>
             </React.Fragment>
