@@ -24,7 +24,7 @@ class ForgotBody extends Component {
         }
         axios({
             method:"post",
-            url:"https://braveharted.herokuapp.com/forgot",
+            url:"https://braveblog2.herokuapp.com/forgot",
             headers,
             data:data88
         })
