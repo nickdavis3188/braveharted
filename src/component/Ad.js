@@ -1,7 +1,7 @@
 import React, {Component } from 'react';
 class Ad extends Component {
     componentDidMount(){
-        (adsbygoogle = window.adsbygoogle || []).push({});
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
     }
     render() { 
         return(
