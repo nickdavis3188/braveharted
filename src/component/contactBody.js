@@ -40,7 +40,7 @@ class ContactBody extends Component {
         }
         axios({
             method:"post",
-            url:"https://braveharted.herokuapp.com/mail",
+            url:"https://braveblog2.herokuapp.com/mail",
             headers,
             data:data99
         })
